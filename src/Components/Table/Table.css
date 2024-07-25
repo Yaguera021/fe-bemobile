@@ -1,0 +1,267 @@
+/* === TABLE CSS === */
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: var(--white);
+}
+
+thead th {
+  background: var(--blue-primary);
+  color: var(--white);
+  font-family: var(--font-regular);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 14px 0;
+
+  &:first-child {
+    border-top-left-radius: 8px;
+  }
+  &:last-child {
+    border-top-right-radius: 8px;
+  }
+}
+
+tbody tr {
+  box-shadow: var(--shadow-1);
+  text-align: center;
+  height: 61px;
+}
+
+tbody tr.open-info td {
+  background-color: var(--white);
+}
+
+tbody tr td img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+tbody tr button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: none;
+}
+
+tbody tr button img {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s;
+}
+
+tbody tr button.show img {
+  transform: rotate(180deg);
+}
+
+tbody tr.open-info .details {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+tr.open-info .details p {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted var(--gray1);
+}
+
+.top-wrapper {
+  padding-bottom: 10px;
+}
+
+.data-adm {
+  width: 220px;
+  padding-left: 70px;
+}
+
+.phone {
+  width: 270px;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.job {
+  padding-right: 12px;
+}
+
+.photo-text {
+  width: 60px;
+  padding-left: 8px;
+  padding-bottom: 12px;
+}
+
+.name-text {
+  width: 200px;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+.ellipse-svg {
+  padding-left: 10px;
+}
+
+.photo-img {
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.employee-name {
+  font-family: var(--font-regular);
+  font-size: 16px;
+}
+
+.arrow-svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+/* === END TABLE CSS === */
+
+/* === CONTENT CSS === */
+
+.content-container {
+  width: 100%;
+}
+
+.content-container h4 {
+  font-family: var(--font-regular);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--black);
+  margin: 21px 0 15px 0;
+  line-height: 28.13px;
+}
+
+.content-container input {
+  width: 100%;
+  height: 48px;
+  background-image: url("../../assets/search.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  outline: none;
+  border: 1px solid var(--gray1);
+  border-radius: 8px;
+  padding: 0 14px;
+  font-family: var(--font-regular);
+  font-size: 16px;
+  color: var(--black);
+  margin: 12px 0;
+}
+
+/* === END CONTENT CSS === */
+
+/* === RESPONSIVIDADE === */
+
+@media (min-width: 768px) {
+  tbody tr {
+    height: 50px;
+  }
+
+  tbody tr td img {
+    width: 36px;
+    height: 36px;
+    margin-right: 42px;
+  }
+
+  .top-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    padding-top: 22px;
+    padding-bottom: 19px;
+  }
+
+  .top-wrapper input {
+    width: 30%;
+  }
+
+  .content-container h4 {
+    margin: 0;
+  }
+
+  .employee-name {
+    width: 100px;
+    text-align: start;
+    padding-left: 20px;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .employee-job {
+    width: 100px;
+    padding-left: 20px;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .employee-adm-date {
+    width: 100px;
+    padding-right: 16px;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .employee-phone-number {
+    width: 100px;
+    padding-left: 20px;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .photo-text {
+    width: 140px;
+    padding-right: 40px;
+  }
+
+  .name-text {
+    width: 180px;
+    padding-right: 112px;
+  }
+
+  .job {
+    width: 190px;
+    padding-left: 20px;
+  }
+
+  .data-adm {
+    min-width: 240px;
+    padding-right: 20px;
+  }
+
+  .phone {
+    width: 227px;
+    padding-left: 46px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .phone {
+    padding-left: 20px;
+  }
+  .employee-phone-number {
+    text-align: start;
+  }
+  .name-text {
+    padding-right: 0;
+  }
+  .employee-name {
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+/* === RESPONSIVIDADE === */

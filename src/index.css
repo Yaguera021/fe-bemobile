@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --blue-primary: linear-gradient(180deg, #5a84c0 0%, #594ed2 100%);
+  --black: #1c1c1c;
+  --gray2: #9e9e9e;
+  --gray1: #dfdfdf;
+  --gray0: #f0f0f0;
+  --white: #ffffff;
+  --shadow-1: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  --font-regular: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray0);
+}
