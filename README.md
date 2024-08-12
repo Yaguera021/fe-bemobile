@@ -8,20 +8,14 @@ Nome, Cargo e Telefone.
 
 ## Aplicação 📽️
 
-
-
 https://github.com/user-attachments/assets/cfa6422a-f2aa-40fa-8f38-86cc9db93f71
-
-
-
-
 
 ## Instalação 💻
 
 1. Clone o repositório [https://github.com/Yaguera021/fe-bemobile](https://github.com/Yaguera021/fe-bemobile)
-3. Execute `npm install` para instalar as dependências.
-4. Navegue até o diretório do projeto: `src/data/` e execute o comando `json-server db.json`.
-5. Após iniciar o json-server, execute `npm run dev` para iniciar a aplicação React.
+2. Execute `npm install` para instalar as dependências.
+3. Navegue até o diretório do projeto: `src/data/` e execute o comando `json-server db.json`.
+4. Após iniciar o json-server, execute `npm run dev` para iniciar a aplicação React.
 
 ## Funcionalidades 🔬
 
@@ -29,7 +23,7 @@ https://github.com/user-attachments/assets/cfa6422a-f2aa-40fa-8f38-86cc9db93f71
 - Barra de filtragem para busca por Nome, Cargo e Telefone
 - Desenvolvido com Context API e Hooks do React para gerenciamento de estado
 
-## Tecnologias Utilizadas 
+## Tecnologias Utilizadas
 
 <table>
   <tr>
@@ -50,8 +44,8 @@ https://github.com/user-attachments/assets/cfa6422a-f2aa-40fa-8f38-86cc9db93f71
       <br>HTML5
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SCSS" height="30" width="40">
-      <br>SCSS
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" height="30" width="40">
+      <br>CSS3
     </td>
   </tr>
 </table>
