@@ -47,7 +47,7 @@ const Table: React.FC = () => {
   return (
     <div className='content-container'>
       <div className='top-wrapper'>
-        <h4>Funcionários</h4>
+        <span className='heading'>Funcionários</span>
         <input
           type='text'
           placeholder='Pesquisar'
