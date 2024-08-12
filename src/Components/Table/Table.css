@@ -265,4 +265,59 @@ tr.open-info .details p {
   }
 }
 
+@media (max-width: 768px) and (min-width: 378px) {
+  tbody tr {
+    height: 61px;
+  }
+
+  tbody tr td img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .top-wrapper {
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  .top-wrapper input {
+    width: 100%;
+  }
+
+  .content-container h4 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+
+  .employee-name,
+  .employee-job,
+  .employee-adm-date,
+  .employee-phone-number {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+
+  .photo-text {
+    width: auto;
+    padding-right: 10px;
+  }
+
+  .name-text {
+    width: auto;
+    padding-right: 10px;
+  }
+
+  .job {
+    width: auto;
+    padding-left: 10px;
+  }
+
+  .data-adm,
+  .phone {
+    width: auto;
+    padding-left: 10px;
+  }
+}
 /* === RESPONSIVIDADE === */
